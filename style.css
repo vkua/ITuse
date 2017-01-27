@@ -1,3 +1,8 @@
+@keyframes z{
+    from{margin-top:10%; }
+    50%{margin-top: 12%;}
+    to{margin-top: 10%;}
+}
 html,body{
     margin:0;
     padding:0;
@@ -8,8 +13,29 @@ html,body{
     height: 100%;
     background-image: url(images/back.jpg);
     background-size: 100% 100%;
-   /*тимчасово побуде невидимим*/
-   /* display: none;*/
+    padding-top:20%; 
+   
+}
+.ITuse{
+    margin: auto;
+    text-align: center;
+    Color:white;
+}
+.ITuse>i{
+    font-size: 30px;
+}
+.angle{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    margin-top: 10%;
+    transition: 1s ease-in-out;
+    animation: z;
+}
+
+.section2{
+    display: none;
 }
 header{
     box-sizing: border-box;
