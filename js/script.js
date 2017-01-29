@@ -1,9 +1,9 @@
 $('document').ready(function(){
     $('.angle').click(function(){
         $('.section1').animate({
-            opacity:'0.5',
+            opacity:'0.8',
             marginTop:'-49%',
-            'display':'none'
+            display:'none'
         },500,function(){
             $('.section2').css({
                 display:'block',
