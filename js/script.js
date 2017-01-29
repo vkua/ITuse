@@ -1,0 +1,10 @@
+$('document').ready(function(){
+    $('.angle').click(function(){
+       $('.section1').css({
+           'display':'none'
+       });
+        $('.section2').css({
+            'display':'block'
+        });
+    });
+});

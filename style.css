@@ -1,4 +1,4 @@
-@keyframes z{
+@keyframes kek{
     from{margin-top:10%; }
     50%{margin-top: 12%;}
     to{margin-top: 10%;}
@@ -31,7 +31,15 @@ html,body{
     color:white;
     margin-top: 10%;
     transition: 1s ease-in-out;
-    animation: z;
+    animation: kek 1.5s infinite;
+    
+}
+.angle:hover{
+    -webkit-box-shadow: -28px -57px 246px 43px rgba(0,0,0,0.75);
+    -moz-box-shadow: -28px -57px 246px 43px rgba(0,0,0,0.75);
+    box-shadow: -28px -57px 246px 43px rgba(0,0,0,0.75);
+    animation-play-state: paused; 
+    
 }
 
 .section2{
