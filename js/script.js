@@ -8,7 +8,7 @@ $('document').ready(function(){
             $('.section2').css({
                 display:'block',
                 marginTop:'0%'
-            });               
+            }); 
         });
 
     });
