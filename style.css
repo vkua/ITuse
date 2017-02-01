@@ -96,6 +96,7 @@ header{
     margin: 0;
     padding: 0;
     height: 500px;
+    margin-bottom: 20%;
 }
 .video video{
    margin: 0;
@@ -104,11 +105,14 @@ header{
    overflow:hidden;
 }
 .why{
-    margin-top: 20%;
+    border: 1px solid white;
+    clear: both;
 }
+
 .w1{
     float:left;
     margin-left: 5%;
     margin-bottom: 3%;
+    margin-top: 2%;
     color:white;
 }
